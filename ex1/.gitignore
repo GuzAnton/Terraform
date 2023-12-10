@@ -1,0 +1,5 @@
+.gitattributes
+*.hcl
+*.tfstate
+*.backup
+.terraform
