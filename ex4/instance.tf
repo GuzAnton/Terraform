@@ -31,3 +31,10 @@ resource "aws_instance" "ex4" {
     host        = self.public_ip
   }
 }
+
+output "PublicIp" {
+  value = aws_instance.ex4.public_ip
+}
+output "PrivateIp" {
+  value = aws_instance.ex4.private_ip
+}
