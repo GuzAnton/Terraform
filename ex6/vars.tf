@@ -16,3 +16,9 @@ variable "AvailabilityZoneCentralb" {
 variable "AvailabilityZoneCentralc" {
   default = "eu-central-1c"
 }
+variable "MyIp" {
+  default = "176.36.180.171/32"
+}
+variable "AMIS" {
+  default = "ami-0d67c61ba22ac1aac"
+}
